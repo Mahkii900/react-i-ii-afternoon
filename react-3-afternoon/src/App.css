@@ -1,0 +1,39 @@
+.app {
+  background-color: #282c34;
+  height: 100vh;
+  width: 100%;
+}
+
+.header {
+  background-color: #61dafb;
+  height: 10vh;
+  width: 100%;
+}
+
+.home {
+  padding-top: 20px;
+  margin-left: 6vh;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.main-content {
+  margin-top: 10vh;
+  margin-left: 10vh;
+  margin-right: 10vh;
+  background-color: white;
+  height: 60vh;
+  display: flex;
+}
+
+.option-buttons {
+  display: flex;
+  height: 5vh;
+  margin-left: 10vh;
+  margin-right: 10vh;
+  justify-content: space-between;
+}
+
+.display-info {
+  width: 100%;
+}

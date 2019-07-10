@@ -1,0 +1,46 @@
+.infoSlide {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.person {
+    margin-top: .2vh;
+    margin-left: 5vh;
+    font-size: 3vh;
+}
+
+.name {
+    text-decoration: underline;
+    text-decoration-color: #61dafb;
+}
+
+.personal-info {
+    font-size: 3vh;
+}
+
+.category {
+    margin-right: 4px;
+    font-weight: bold;
+}
+
+.movies {
+    font-size: 2.5vh;
+    margin-top: 16px;
+}
+
+.movies h3 {
+    margin-bottom: 0;
+}
+
+.movies li {
+    list-style-type: decimal;
+    margin-left: 50px;
+    font-weight: bold;
+    line-height: 5vh;
+}
+
+.id-number h2 {
+    margin: 0;
+    font-size: 4vh;
+}
