@@ -12,10 +12,10 @@ class App extends Component {
       data: Data,
       indexNum: 0
     }
-    this.changeHandler = this.changeHandler.bind(this)
+    this.changeInfoHandler = this.changeInfoHandler.bind(this)
   }
 
-  changeHandler(value) {
+  changeInfoHandler(value) {
     this.setState({indexNum: value})
   }
 
@@ -31,8 +31,13 @@ class App extends Component {
           </div>
         </div>
         <div className='option-buttons'>
-          <PreviousButton indexNum={this.state.indexNum} handler={this.changeHandler}/>
-          <NextButton indexNum={this.state.indexNum} handler={this.changeHandler} maxNum={this.state.data.length}/>
+          <PreviousButton indexNum={this.state.indexNum} handler={this.changeInfoHandler}/>
+          <div className='edit-buttons'>
+            <button>Edit</button>
+            <button>Delete</button>
+            <button>New</button>
+          </div>
+          <NextButton indexNum={this.state.indexNum} handler={this.changeInfoHandler} maxNum={this.state.data.length}/>
         </div>
       </div>
     )

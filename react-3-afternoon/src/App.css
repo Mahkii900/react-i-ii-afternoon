@@ -37,3 +37,18 @@
 .display-info {
   width: 100%;
 }
+
+.edit-buttons {
+  width: 25%;
+  display: absolute;
+  align-self: center;
+}
+
+.edit-buttons button{
+  background-color: #61dafb;
+  border: none;
+  border-radius: 10%;
+  color: white;
+  font-size: 3vh;
+  margin: 1vh;
+}
